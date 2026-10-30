@@ -17,17 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - uses: actions/checkout@v5  # the runner's built-in python3 is enough (stdlib only)
       - name: Scan Twitch
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
           if [ -z "$TWITCH_CLIENT_ID" ]; then echo "Twitch secrets not added to the repo yet - skipping."; exit 0; fi
-          python market_scan.py
+          python3 market_scan.py
       - name: Commit snapshot
         run: |
           git config user.name "streamscout-bot"
