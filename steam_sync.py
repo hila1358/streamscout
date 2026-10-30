@@ -5,12 +5,14 @@ so it doesn't depend on the two stores spelling names the same way.
 Usage: python3 steam_sync.py
 """
 import json
-import re
+import os
+import urllib.error
 import urllib.parse
 import urllib.request
 
 from twitch_common import ROOT, _app_token, app_get, load_env
 
+load_env()  # also loads STEAM_API_KEY from .env when present
 config = json.loads((ROOT / "watchlist.json").read_text())
 steam_id = config["steam_id"]
 
@@ -27,19 +29,20 @@ def wishlist():
 
 
 def library():
-    """Owned games with playtime; only works while the profile's 'Game details' privacy setting is Public."""
-    url = f"https://steamcommunity.com/profiles/{steam_id}/games?tab=all&xml=1"
-    with urllib.request.urlopen(url, timeout=30) as resp:
-        xml = resp.read().decode("utf-8", "replace")
-    if "<gamesList>" not in xml:
+    """Owned games -> hours played. Needs STEAM_API_KEY (steamcommunity.com/dev/apikey) and public 'Game details'."""
+    key = os.environ.get("STEAM_API_KEY", "")
+    if not key or key.startswith("paste_"):
         return None
-    hours = {}
-    for block in re.findall(r"<game>(.*?)</game>", xml, re.S):
-        appid = re.search(r"<appID>(\d+)</appID>", block)
-        played = re.search(r"<hoursOnRecord>([\d,.]+)</hoursOnRecord>", block)
-        if appid:
-            hours[int(appid.group(1))] = float(played.group(1).replace(",", "")) if played else 0.0
-    return hours
+    try:
+        data = get_json("https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?"
+                        + urllib.parse.urlencode({"key": key, "steamid": steam_id, "include_played_free_games": 1}))
+    except urllib.error.HTTPError as e:
+        print(f"Steam library not readable ({e.code}) - check STEAM_API_KEY. Using the wishlist only.")
+        return None
+    games = data["response"].get("games")
+    if games is None:  # empty response means the library isn't visible
+        return None
+    return {g["appid"]: round(g.get("playtime_forever", 0) / 60, 1) for g in games}
 
 
 def store_info(appids):

@@ -22,6 +22,7 @@ jobs:
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: |
           if [ -z "$TWITCH_CLIENT_ID" ]; then echo "Twitch secrets not added to the repo yet - skipping."; exit 0; fi
           python3 steam_sync.py || echo "Steam sync failed - scanning with the last known list."
