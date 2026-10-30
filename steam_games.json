@@ -1,7 +1,280 @@
 {
  "steam_id": "76561198400230607",
- "library_public": false,
+ "library_public": true,
  "games": [
+  {
+   "appid": 400,
+   "steam_name": "Portal",
+   "steam_tags": [
+    "Puzzle",
+    "Puzzle Platformer",
+    "First-Person",
+    "3D Platformer",
+    "Singleplayer",
+    "Sci-fi",
+    "Comedy",
+    "Female Protagonist",
+    "Physics",
+    "Funny"
+   ],
+   "coming_soon": false,
+   "twitch_id": "6187",
+   "twitch_name": "Portal",
+   "wishlist": false,
+   "hours_played": 27.1
+  },
+  {
+   "appid": 440,
+   "steam_name": "Team Fortress 2",
+   "steam_tags": [
+    "Free to Play",
+    "Hero Shooter",
+    "Multiplayer",
+    "FPS",
+    "Shooter",
+    "Action",
+    "Class-Based",
+    "Funny",
+    "Team-Based",
+    "First-Person"
+   ],
+   "coming_soon": false,
+   "twitch_id": "16676",
+   "twitch_name": "Team Fortress 2",
+   "wishlist": false,
+   "hours_played": 328.0
+  },
+  {
+   "appid": 550,
+   "steam_name": "Left 4 Dead 2",
+   "steam_tags": [
+    "Zombies",
+    "Co-op",
+    "FPS",
+    "Multiplayer",
+    "Shooter",
+    "Online Co-Op",
+    "Action",
+    "Survival",
+    "Horror",
+    "Gore"
+   ],
+   "coming_soon": false,
+   "twitch_id": "24193",
+   "twitch_name": "Left 4 Dead 2",
+   "wishlist": false,
+   "hours_played": 15.1
+  },
+  {
+   "appid": 620,
+   "steam_name": "Portal 2",
+   "steam_tags": [
+    "Singleplayer",
+    "Platformer",
+    "Puzzle",
+    "First-Person",
+    "Dark Humor",
+    "Story Rich",
+    "Puzzle Platformer",
+    "Funny",
+    "Female Protagonist",
+    "3D Platformer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "19731",
+   "twitch_name": "Portal 2",
+   "wishlist": false,
+   "hours_played": 63.2
+  },
+  {
+   "appid": 730,
+   "steam_name": "Counter-Strike 2",
+   "steam_tags": [
+    "FPS",
+    "Shooter",
+    "Multiplayer",
+    "Competitive",
+    "Action",
+    "Team-Based",
+    "eSports",
+    "Tactical",
+    "First-Person",
+    "PvP"
+   ],
+   "coming_soon": false,
+   "twitch_id": null,
+   "twitch_name": null,
+   "wishlist": false,
+   "hours_played": 208.3
+  },
+  {
+   "appid": 4000,
+   "steam_name": "Garry's Mod",
+   "steam_tags": [
+    "Sandbox",
+    "Moddable",
+    "Multiplayer",
+    "Physics",
+    "Building",
+    "Funny",
+    "Casual",
+    "First-Person",
+    "Singleplayer",
+    "FPS"
+   ],
+   "coming_soon": false,
+   "twitch_id": "18846",
+   "twitch_name": "Garry's Mod",
+   "wishlist": false,
+   "hours_played": 31.3
+  },
+  {
+   "appid": 48000,
+   "steam_name": "LIMBO",
+   "steam_tags": [
+    "Puzzle Platformer",
+    "Indie",
+    "Puzzle",
+    "Platformer",
+    "Dark",
+    "Atmospheric",
+    "2D",
+    "Adventure",
+    "Singleplayer",
+    "Horror"
+   ],
+   "coming_soon": false,
+   "twitch_id": "27377",
+   "twitch_name": "LIMBO",
+   "wishlist": false,
+   "hours_played": 7.5
+  },
+  {
+   "appid": 49520,
+   "steam_name": "Borderlands 2",
+   "steam_tags": [
+    "Loot",
+    "Shooter",
+    "Action",
+    "Multiplayer",
+    "Co-op",
+    "Looter Shooter",
+    "FPS",
+    "RPG",
+    "First-Person",
+    "Funny"
+   ],
+   "coming_soon": false,
+   "twitch_id": "32345",
+   "twitch_name": "Borderlands 2",
+   "wishlist": false,
+   "hours_played": 285.7
+  },
+  {
+   "appid": 206440,
+   "steam_name": "To the Moon",
+   "steam_tags": [
+    "Story Rich",
+    "Great Soundtrack",
+    "Indie",
+    "Emotional",
+    "Pixel Graphics",
+    "Adventure",
+    "Singleplayer",
+    "Interactive Fiction",
+    "Romance",
+    "RPG"
+   ],
+   "coming_soon": false,
+   "twitch_id": "32513",
+   "twitch_name": "To the Moon",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 207140,
+   "steam_name": "SpeedRunners",
+   "steam_tags": [
+    "Multiplayer",
+    "Racing",
+    "Local Multiplayer",
+    "Indie",
+    "Competitive",
+    "Fast-Paced",
+    "Platformer",
+    "Action",
+    "2D",
+    "4 Player Local"
+   ],
+   "coming_soon": false,
+   "twitch_id": "370345",
+   "twitch_name": "SpeedRunners",
+   "wishlist": false,
+   "hours_played": 52.9
+  },
+  {
+   "appid": 210970,
+   "steam_name": "The Witness",
+   "steam_tags": [
+    "Puzzle",
+    "Exploration",
+    "First-Person",
+    "Open World",
+    "Singleplayer",
+    "Colorful",
+    "Indie",
+    "Atmospheric",
+    "Difficult",
+    "Walking Simulator"
+   ],
+   "coming_soon": false,
+   "twitch_id": "17324",
+   "twitch_name": "The Witness",
+   "wishlist": false,
+   "hours_played": 36.9
+  },
+  {
+   "appid": 216150,
+   "steam_name": "MapleStory",
+   "steam_tags": [
+    "MMORPG",
+    "2D Platformer",
+    "Free to Play",
+    "Character Customization",
+    "Loot",
+    "PvE",
+    "Side Scroller",
+    "Multiplayer",
+    "Anime",
+    "Cute"
+   ],
+   "coming_soon": false,
+   "twitch_id": "19976",
+   "twitch_name": "MapleStory",
+   "wishlist": false,
+   "hours_played": 94.7
+  },
+  {
+   "appid": 217690,
+   "steam_name": "Anna - Extended Edition",
+   "steam_tags": [
+    "Horror",
+    "Adventure",
+    "Indie",
+    "Atmospheric",
+    "Puzzle",
+    "Psychological Horror",
+    "First-Person",
+    "Singleplayer",
+    "Story Rich",
+    "Great Soundtrack"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1242287425",
+   "twitch_name": "Anna: Extended Edition",
+   "wishlist": false,
+   "hours_played": 4.9
+  },
   {
    "appid": 219740,
    "steam_name": "Don't Starve",
@@ -45,6 +318,153 @@
    "hours_played": null
   },
   {
+   "appid": 220780,
+   "steam_name": "Thomas Was Alone",
+   "steam_tags": [
+    "Platformer",
+    "Side Scroller",
+    "Sci-fi",
+    "2D Platformer",
+    "Precision Platformer",
+    "Puzzle Platformer",
+    "2D",
+    "Atmospheric",
+    "Story Rich",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "66206",
+   "twitch_name": "Thomas Was Alone",
+   "wishlist": false,
+   "hours_played": 4.9
+  },
+  {
+   "appid": 221910,
+   "steam_name": "The Stanley Parable",
+   "steam_tags": [
+    "Comedy",
+    "Indie",
+    "Walking Simulator",
+    "First-Person",
+    "Psychological",
+    "Funny",
+    "Satire",
+    "Dynamic Narration",
+    "Adventure",
+    "Multiple Endings"
+   ],
+   "coming_soon": false,
+   "twitch_id": "313258",
+   "twitch_name": "The Stanley Parable",
+   "wishlist": false,
+   "hours_played": 2.6
+  },
+  {
+   "appid": 223710,
+   "steam_name": "Cry of Fear",
+   "steam_tags": [
+    "Horror",
+    "Free to Play",
+    "Psychological Horror",
+    "Multiplayer",
+    "Survival Horror",
+    "Co-op",
+    "Atmospheric",
+    "Psychological",
+    "First-Person",
+    "Action"
+   ],
+   "coming_soon": false,
+   "twitch_id": "115546",
+   "twitch_name": "Cry of Fear",
+   "wishlist": false,
+   "hours_played": 0.3
+  },
+  {
+   "appid": 224760,
+   "steam_name": "FEZ",
+   "steam_tags": [
+    "Platformer",
+    "Puzzle",
+    "Indie",
+    "Pixel Graphics",
+    "Exploration",
+    "Great Soundtrack",
+    "Singleplayer",
+    "Adventure",
+    "Casual",
+    "Puzzle Platformer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "22428",
+   "twitch_name": "Fez",
+   "wishlist": false,
+   "hours_played": 24.8
+  },
+  {
+   "appid": 225080,
+   "steam_name": "Brothers - A Tale of Two Sons",
+   "steam_tags": [
+    "Adventure",
+    "Atmospheric",
+    "Story Rich",
+    "Controller",
+    "Indie",
+    "Emotional",
+    "Puzzle",
+    "Short",
+    "Fantasy",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "68346",
+   "twitch_name": "Brothers: A Tale of Two Sons",
+   "wishlist": false,
+   "hours_played": 0.9
+  },
+  {
+   "appid": 230410,
+   "steam_name": "Warframe",
+   "steam_tags": [
+    "Free to Play",
+    "Looter Shooter",
+    "Action RPG",
+    "Third-Person Shooter",
+    "Action",
+    "RPG",
+    "Third Person",
+    "Massively Multiplayer",
+    "Online Co-Op",
+    "Character Customization"
+   ],
+   "coming_soon": false,
+   "twitch_id": "66170",
+   "twitch_name": "Warframe",
+   "wishlist": false,
+   "hours_played": 1.2
+  },
+  {
+   "appid": 233720,
+   "steam_name": "Surgeon Simulator",
+   "steam_tags": [
+    "Simulation",
+    "Funny",
+    "Physics",
+    "Comedy",
+    "Medical Sim",
+    "Dark Humor",
+    "Indie",
+    "Difficult",
+    "Intentionally Awkward Controls",
+    "Puzzle"
+   ],
+   "coming_soon": false,
+   "twitch_id": "112933",
+   "twitch_name": "Surgeon Simulator 2013",
+   "wishlist": false,
+   "hours_played": 4.1
+  },
+  {
    "appid": 238320,
    "steam_name": "Outlast",
    "steam_tags": [
@@ -64,6 +484,27 @@
    "twitch_name": "Outlast",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 238460,
+   "steam_name": "BattleBlock Theater®",
+   "steam_tags": [
+    "Co-op",
+    "Platformer",
+    "Funny",
+    "Comedy",
+    "Level Editor",
+    "Multiplayer",
+    "Local Co-Op",
+    "2D",
+    "Online Co-Op",
+    "Cats"
+   ],
+   "coming_soon": false,
+   "twitch_id": "25087",
+   "twitch_name": "BattleBlock Theater",
+   "wishlist": false,
+   "hours_played": 10.2
   },
   {
    "appid": 239030,
@@ -108,6 +549,111 @@
    "hours_played": null
   },
   {
+   "appid": 247080,
+   "steam_name": "Crypt of the NecroDancer",
+   "steam_tags": [
+    "Rhythm",
+    "Roguelike",
+    "Great Soundtrack",
+    "Pixel Graphics",
+    "Dungeon Crawler",
+    "Indie",
+    "Difficult",
+    "Female Protagonist",
+    "Music",
+    "Local Co-Op"
+   ],
+   "coming_soon": false,
+   "twitch_id": "313444",
+   "twitch_name": "Crypt of the NecroDancer",
+   "wishlist": false,
+   "hours_played": 47.4
+  },
+  {
+   "appid": 250320,
+   "steam_name": "The Wolf Among Us",
+   "steam_tags": [
+    "Adventure",
+    "Story Rich",
+    "Detective",
+    "Multiple Endings",
+    "Choices Matter",
+    "Choose Your Own Adventure",
+    "Visual Novel",
+    "Episodic",
+    "Action",
+    "Point & Click"
+   ],
+   "coming_soon": false,
+   "twitch_id": "30720",
+   "twitch_name": "The Wolf Among Us",
+   "wishlist": false,
+   "hours_played": 11.7
+  },
+  {
+   "appid": 250900,
+   "steam_name": "The Binding of Isaac: Rebirth",
+   "steam_tags": [
+    "Action Roguelike",
+    "Roguelike",
+    "Indie",
+    "Replay Value",
+    "Difficult",
+    "Pixel Graphics",
+    "Dungeon Crawler",
+    "Great Soundtrack",
+    "Singleplayer",
+    "Dark"
+   ],
+   "coming_soon": false,
+   "twitch_id": "847929177",
+   "twitch_name": "The Binding of Isaac: Rebirth",
+   "wishlist": false,
+   "hours_played": 0.6
+  },
+  {
+   "appid": 252950,
+   "steam_name": "Rocket League®",
+   "steam_tags": [
+    "Multiplayer",
+    "Football (Soccer)",
+    "Competitive",
+    "Sports",
+    "Racing",
+    "Team-Based",
+    "Online Co-Op",
+    "Football (American)",
+    "Fast-Paced",
+    "Co-op"
+   ],
+   "coming_soon": false,
+   "twitch_id": "30921",
+   "twitch_name": "Rocket League",
+   "wishlist": false,
+   "hours_played": 13.9
+  },
+  {
+   "appid": 253110,
+   "steam_name": "The Cat Lady",
+   "steam_tags": [
+    "Horror",
+    "Story Rich",
+    "Adventure",
+    "Psychological Horror",
+    "Indie",
+    "Female Protagonist",
+    "Point & Click",
+    "Dark",
+    "Atmospheric",
+    "Psychological"
+   ],
+   "coming_soon": false,
+   "twitch_id": "106662",
+   "twitch_name": "The Cat Lady",
+   "wishlist": false,
+   "hours_played": 14.3
+  },
+  {
    "appid": 257850,
    "steam_name": "Hyper Light Drifter",
    "steam_tags": [
@@ -127,6 +673,69 @@
    "twitch_name": "Hyper Light Drifter",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 261570,
+   "steam_name": "Ori and the Blind Forest",
+   "steam_tags": [
+    "Great Soundtrack",
+    "Atmospheric",
+    "Platformer",
+    "Metroidvania",
+    "Adventure",
+    "Story Rich",
+    "Fantasy",
+    "2D",
+    "Cute",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "460619",
+   "twitch_name": "Ori and the Blind Forest",
+   "wishlist": false,
+   "hours_played": 4.3
+  },
+  {
+   "appid": 261640,
+   "steam_name": "Borderlands: The Pre-Sequel",
+   "steam_tags": [
+    "Co-op",
+    "FPS",
+    "Action",
+    "Comedy",
+    "Loot",
+    "Open World",
+    "RPG",
+    "Multiplayer",
+    "Shooter",
+    "Online Co-Op"
+   ],
+   "coming_soon": false,
+   "twitch_id": "460041",
+   "twitch_name": "Borderlands: The Pre-Sequel",
+   "wishlist": false,
+   "hours_played": 59.4
+  },
+  {
+   "appid": 264710,
+   "steam_name": "Subnautica",
+   "steam_tags": [
+    "Open World Survival Craft",
+    "Survival",
+    "Horror",
+    "Underwater",
+    "Open World",
+    "Exploration",
+    "Crafting",
+    "Singleplayer",
+    "Base Building",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "460090",
+   "twitch_name": "Subnautica",
+   "wishlist": false,
+   "hours_played": 52.7
   },
   {
    "appid": 268910,
@@ -213,6 +822,531 @@
    "hours_played": null
   },
   {
+   "appid": 306130,
+   "steam_name": "The Elder Scrolls® Online",
+   "steam_tags": [
+    "RPG",
+    "MMORPG",
+    "Open World",
+    "Fantasy",
+    "Adventure",
+    "Multiplayer",
+    "Exploration",
+    "Singleplayer",
+    "Massively Multiplayer",
+    "Action"
+   ],
+   "coming_soon": false,
+   "twitch_id": "65654",
+   "twitch_name": "The Elder Scrolls Online",
+   "wishlist": false,
+   "hours_played": 2.2
+  },
+  {
+   "appid": 319630,
+   "steam_name": "Life is Strange - Episode 1",
+   "steam_tags": [
+    "Story Rich",
+    "Choices Matter",
+    "Great Soundtrack",
+    "Female Protagonist",
+    "Time Travel",
+    "Atmospheric",
+    "Episodic",
+    "Singleplayer",
+    "Adventure",
+    "Time Manipulation"
+   ],
+   "coming_soon": false,
+   "twitch_id": "461389",
+   "twitch_name": "Life Is Strange",
+   "wishlist": false,
+   "hours_played": 25.9
+  },
+  {
+   "appid": 321870,
+   "steam_name": "Silence of the Sleep",
+   "steam_tags": [
+    "Horror",
+    "Adventure",
+    "Indie",
+    "Psychological Horror",
+    "Singleplayer",
+    "Puzzle",
+    "2D",
+    "Atmospheric",
+    "Dark",
+    "Side Scroller"
+   ],
+   "coming_soon": false,
+   "twitch_id": "488337",
+   "twitch_name": "Silence of the Sleep",
+   "wishlist": false,
+   "hours_played": 15.4
+  },
+  {
+   "appid": 322170,
+   "steam_name": "Geometry Dash",
+   "steam_tags": [
+    "Difficult",
+    "Music",
+    "Level Editor",
+    "Great Soundtrack",
+    "2D",
+    "Rhythm",
+    "Precision Platformer",
+    "Singleplayer",
+    "Platformer",
+    "Colorful"
+   ],
+   "coming_soon": false,
+   "twitch_id": "460951",
+   "twitch_name": "Geometry Dash",
+   "wishlist": false,
+   "hours_played": 30.9
+  },
+  {
+   "appid": 327890,
+   "steam_name": "I Am Bread",
+   "steam_tags": [
+    "Simulation",
+    "Funny",
+    "Physics",
+    "Difficult",
+    "Adventure",
+    "3D Platformer",
+    "Singleplayer",
+    "Comedy",
+    "Action",
+    "Intentionally Awkward Controls"
+   ],
+   "coming_soon": false,
+   "twitch_id": "488487",
+   "twitch_name": "I am Bread",
+   "wishlist": false,
+   "hours_played": 1.1
+  },
+  {
+   "appid": 330830,
+   "steam_name": "Tales from the Borderlands",
+   "steam_tags": [
+    "Comedy",
+    "Adventure",
+    "Story Rich",
+    "Choices Matter",
+    "Singleplayer",
+    "Episodic",
+    "Point & Click",
+    "Funny",
+    "Choose Your Own Adventure",
+    "Quick-Time Events"
+   ],
+   "coming_soon": false,
+   "twitch_id": "458778",
+   "twitch_name": "Tales from the Borderlands",
+   "wishlist": false,
+   "hours_played": 17.3
+  },
+  {
+   "appid": 356670,
+   "steam_name": "Spooky's Jump Scare Mansion",
+   "steam_tags": [
+    "Horror",
+    "Free to Play",
+    "Cute",
+    "First-Person",
+    "Singleplayer",
+    "Indie",
+    "Atmospheric",
+    "Psychological Horror",
+    "Cartoon",
+    "Dark Humor"
+   ],
+   "coming_soon": false,
+   "twitch_id": "489555",
+   "twitch_name": "Spooky's Jump Scare Mansion",
+   "wishlist": false,
+   "hours_played": 1.0
+  },
+  {
+   "appid": 360740,
+   "steam_name": "Downwell",
+   "steam_tags": [
+    "Precision Platformer",
+    "Pixel Graphics",
+    "Action Roguelike",
+    "Indie",
+    "Platformer",
+    "Arcade",
+    "2D Platformer",
+    "Action",
+    "Difficult",
+    "2D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "489018",
+   "twitch_name": "Downwell",
+   "wishlist": false,
+   "hours_played": 1.0
+  },
+  {
+   "appid": 362680,
+   "steam_name": "Fran Bow",
+   "steam_tags": [
+    "Psychological Horror",
+    "Point & Click",
+    "Story Rich",
+    "Puzzle",
+    "Horror",
+    "Adventure",
+    "Indie",
+    "Dark",
+    "Singleplayer",
+    "Atmospheric"
+   ],
+   "coming_soon": false,
+   "twitch_id": "490105",
+   "twitch_name": "Fran Bow",
+   "wishlist": false,
+   "hours_played": 24.2
+  },
+  {
+   "appid": 364390,
+   "steam_name": "Downfall",
+   "steam_tags": [
+    "Adventure",
+    "Indie",
+    "Psychological Horror",
+    "Story Rich",
+    "Horror",
+    "Point & Click",
+    "Great Soundtrack",
+    "Atmospheric",
+    "Dark",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "369016",
+   "twitch_name": "Downfall",
+   "wishlist": false,
+   "hours_played": 5.6
+  },
+  {
+   "appid": 367520,
+   "steam_name": "Hollow Knight",
+   "steam_tags": [
+    "Metroidvania",
+    "Platformer",
+    "Souls-like",
+    "Difficult",
+    "Great Soundtrack",
+    "2D",
+    "Indie",
+    "Singleplayer",
+    "Exploration",
+    "Atmospheric"
+   ],
+   "coming_soon": false,
+   "twitch_id": "490147",
+   "twitch_name": "Hollow Knight",
+   "wishlist": false,
+   "hours_played": 96.1
+  },
+  {
+   "appid": 368730,
+   "steam_name": "No Time To Explain Remastered",
+   "steam_tags": [
+    "Indie",
+    "Action",
+    "Adventure",
+    "Casual",
+    "Platformer",
+    "Comedy",
+    "Funny",
+    "2D",
+    "Difficult",
+    "Time Travel"
+   ],
+   "coming_soon": false,
+   "twitch_id": "2128497473",
+   "twitch_name": "No Time to Explain: Remastered",
+   "wishlist": false,
+   "hours_played": 1.2
+  },
+  {
+   "appid": 377160,
+   "steam_name": "Fallout 4",
+   "steam_tags": [
+    "Open World",
+    "Post-apocalyptic",
+    "Singleplayer",
+    "Exploration",
+    "RPG",
+    "Adventure",
+    "Atmospheric",
+    "Shooter",
+    "First-Person",
+    "Story Rich"
+   ],
+   "coming_soon": false,
+   "twitch_id": "489776",
+   "twitch_name": "Fallout 4",
+   "wishlist": false,
+   "hours_played": 243.3
+  },
+  {
+   "appid": 383870,
+   "steam_name": "Firewatch",
+   "steam_tags": [
+    "Adventure",
+    "Atmospheric",
+    "Story Rich",
+    "Walking Simulator",
+    "Mystery",
+    "First-Person",
+    "Singleplayer",
+    "Exploration",
+    "Open World",
+    "Indie"
+   ],
+   "coming_soon": false,
+   "twitch_id": "459755",
+   "twitch_name": "Firewatch",
+   "wishlist": false,
+   "hours_played": 8.9
+  },
+  {
+   "appid": 386360,
+   "steam_name": "SMITE®",
+   "steam_tags": [
+    "Free to Play",
+    "MOBA",
+    "Multiplayer",
+    "Action",
+    "Third Person",
+    "Mythology",
+    "Strategy",
+    "MMORPG",
+    "Team-Based",
+    "Nostalgia"
+   ],
+   "coming_soon": false,
+   "twitch_id": "32507",
+   "twitch_name": "SMITE",
+   "wishlist": false,
+   "hours_played": 4.6
+  },
+  {
+   "appid": 387290,
+   "steam_name": "Ori and the Blind Forest: Definitive Edition",
+   "steam_tags": [
+    "Atmospheric",
+    "Metroidvania",
+    "Great Soundtrack",
+    "Platformer",
+    "Adventure",
+    "Story Rich",
+    "Singleplayer",
+    "Cute",
+    "Difficult",
+    "Action"
+   ],
+   "coming_soon": false,
+   "twitch_id": "2058307543",
+   "twitch_name": "Ori and the Blind Forest: Definitive Edition",
+   "wishlist": false,
+   "hours_played": 24.4
+  },
+  {
+   "appid": 395170,
+   "steam_name": "DISTRAINT: Deluxe Edition",
+   "steam_tags": [
+    "Indie",
+    "Psychological Horror",
+    "Horror",
+    "Pixel Graphics",
+    "2D",
+    "Adventure",
+    "Story Rich",
+    "Atmospheric",
+    "Singleplayer",
+    "Dark"
+   ],
+   "coming_soon": false,
+   "twitch_id": "491223",
+   "twitch_name": "DISTRAINT",
+   "wishlist": false,
+   "hours_played": 5.2
+  },
+  {
+   "appid": 397540,
+   "steam_name": "Borderlands 3",
+   "steam_tags": [
+    "RPG",
+    "Looter Shooter",
+    "Multiplayer",
+    "FPS",
+    "Online Co-Op",
+    "Loot",
+    "Open World",
+    "Co-op",
+    "Action",
+    "Shooter"
+   ],
+   "coming_soon": false,
+   "twitch_id": "491318",
+   "twitch_name": "Borderlands 3",
+   "wishlist": false,
+   "hours_played": 215.6
+  },
+  {
+   "appid": 397900,
+   "steam_name": "Business Tour - Board Game with Online Multiplayer",
+   "steam_tags": [
+    "Board Game",
+    "Free to Play",
+    "Multiplayer",
+    "Strategy",
+    "Casual",
+    "Massively Multiplayer",
+    "Indie",
+    "Co-op",
+    "Capitalism",
+    "Online Co-Op"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497852",
+   "twitch_name": "Business Tour",
+   "wishlist": false,
+   "hours_played": 1.5
+  },
+  {
+   "appid": 405640,
+   "steam_name": "Pony Island",
+   "steam_tags": [
+    "Puzzle",
+    "Indie",
+    "Psychological Horror",
+    "Pixel Graphics",
+    "Hacking",
+    "Singleplayer",
+    "Demons",
+    "Horror",
+    "Dark",
+    "Experimental"
+   ],
+   "coming_soon": false,
+   "twitch_id": "492952",
+   "twitch_name": "Pony Island",
+   "wishlist": false,
+   "hours_played": 3.3
+  },
+  {
+   "appid": 413150,
+   "steam_name": "Stardew Valley",
+   "steam_tags": [
+    "Farming Sim",
+    "Pixel Graphics",
+    "Multiplayer",
+    "Life Sim",
+    "RPG",
+    "Relaxing",
+    "Simulation",
+    "Agriculture",
+    "Sandbox",
+    "Crafting"
+   ],
+   "coming_soon": false,
+   "twitch_id": "490744",
+   "twitch_name": "Stardew Valley",
+   "wishlist": false,
+   "hours_played": 303.1
+  },
+  {
+   "appid": 417860,
+   "steam_name": "Emily is Away",
+   "steam_tags": [
+    "Free to Play",
+    "Story Rich",
+    "Singleplayer",
+    "Choices Matter",
+    "Indie",
+    "Interactive Fiction",
+    "Simulation",
+    "Retro",
+    "Casual",
+    "Choose Your Own Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "494209",
+   "twitch_name": "Emily is Away",
+   "wishlist": false,
+   "hours_played": 3.8
+  },
+  {
+   "appid": 420530,
+   "steam_name": "OneShot",
+   "steam_tags": [
+    "Story Rich",
+    "Pixel Graphics",
+    "Indie",
+    "Great Soundtrack",
+    "Cute",
+    "Atmospheric",
+    "Puzzle",
+    "Singleplayer",
+    "Choices Matter",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "492528",
+   "twitch_name": "OneShot",
+   "wishlist": false,
+   "hours_played": 11.1
+  },
+  {
+   "appid": 424840,
+   "steam_name": "Little Nightmares",
+   "steam_tags": [
+    "Horror",
+    "Atmospheric",
+    "Adventure",
+    "Singleplayer",
+    "Puzzle Platformer",
+    "Dark",
+    "Puzzle",
+    "Indie",
+    "Story Rich",
+    "Stealth"
+   ],
+   "coming_soon": false,
+   "twitch_id": "494131",
+   "twitch_name": "Little Nightmares",
+   "wishlist": false,
+   "hours_played": 16.0
+  },
+  {
+   "appid": 433340,
+   "steam_name": "Slime Rancher",
+   "steam_tags": [
+    "Cute",
+    "Exploration",
+    "Adventure",
+    "Singleplayer",
+    "Open World",
+    "First-Person",
+    "Colorful",
+    "Funny",
+    "Sandbox",
+    "Simulation"
+   ],
+   "coming_soon": false,
+   "twitch_id": "491177",
+   "twitch_name": "Slime Rancher",
+   "wishlist": false,
+   "hours_played": 15.9
+  },
+  {
    "appid": 435400,
    "steam_name": "Hidden Folks",
    "steam_tags": [
@@ -232,6 +1366,69 @@
    "twitch_name": "Hidden Folks",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 438100,
+   "steam_name": "VRChat",
+   "steam_tags": [
+    "VR",
+    "Free to Play",
+    "Multiplayer",
+    "Anime",
+    "Memes",
+    "Funny",
+    "Massively Multiplayer",
+    "First-Person",
+    "Open World",
+    "Early Access"
+   ],
+   "coming_soon": false,
+   "twitch_id": "499003",
+   "twitch_name": "VRChat",
+   "wishlist": false,
+   "hours_played": 2.5
+  },
+  {
+   "appid": 446380,
+   "steam_name": "Sophie's Curse",
+   "steam_tags": [
+    "Horror",
+    "Survival Horror",
+    "Psychological Horror",
+    "Point & Click",
+    "Difficult",
+    "Simulation",
+    "Jump Scare",
+    "Singleplayer",
+    "First-Person",
+    "Supernatural"
+   ],
+   "coming_soon": false,
+   "twitch_id": "491927",
+   "twitch_name": "Sophie's Curse",
+   "wishlist": false,
+   "hours_played": 1.8
+  },
+  {
+   "appid": 460950,
+   "steam_name": "Katana ZERO",
+   "steam_tags": [
+    "Pixel Graphics",
+    "Action",
+    "Great Soundtrack",
+    "Story Rich",
+    "Platformer",
+    "Cyberpunk",
+    "2D Platformer",
+    "Indie",
+    "Hack and Slash",
+    "2D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "490646",
+   "twitch_name": "Katana ZERO",
+   "wishlist": false,
+   "hours_played": 23.8
   },
   {
    "appid": 481510,
@@ -255,6 +1452,132 @@
    "hours_played": null
   },
   {
+   "appid": 483980,
+   "steam_name": "Mad Father",
+   "steam_tags": [
+    "Horror",
+    "Psychological Horror",
+    "Anime",
+    "Pixel Graphics",
+    "2D",
+    "Exploration",
+    "Survival Horror",
+    "Story Rich",
+    "Adventure",
+    "Puzzle"
+   ],
+   "coming_soon": false,
+   "twitch_id": "126312",
+   "twitch_name": "Mad Father",
+   "wishlist": false,
+   "hours_played": 5.8
+  },
+  {
+   "appid": 489830,
+   "steam_name": "The Elder Scrolls V: Skyrim Special Edition",
+   "steam_tags": [
+    "Open World",
+    "RPG",
+    "Fantasy",
+    "Adventure",
+    "Singleplayer",
+    "Character Customization",
+    "Moddable",
+    "Dragons",
+    "Story Rich",
+    "Magic"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1050003477",
+   "twitch_name": "The Elder Scrolls V: Skyrim - Special Edition",
+   "wishlist": false,
+   "hours_played": 527.2
+  },
+  {
+   "appid": 501300,
+   "steam_name": "What Remains of Edith Finch",
+   "steam_tags": [
+    "Story Rich",
+    "Atmospheric",
+    "Walking Simulator",
+    "Mystery",
+    "First-Person",
+    "Exploration",
+    "Adventure",
+    "Singleplayer",
+    "Female Protagonist",
+    "Indie"
+   ],
+   "coming_soon": false,
+   "twitch_id": "490174",
+   "twitch_name": "What Remains of Edith Finch",
+   "wishlist": false,
+   "hours_played": 3.0
+  },
+  {
+   "appid": 504230,
+   "steam_name": "Celeste",
+   "steam_tags": [
+    "Precision Platformer",
+    "Difficult",
+    "Pixel Graphics",
+    "Great Soundtrack",
+    "Indie",
+    "Platformer",
+    "2D Platformer",
+    "Female Protagonist",
+    "Singleplayer",
+    "2D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "492535",
+   "twitch_name": "Celeste",
+   "wishlist": false,
+   "hours_played": 45.1
+  },
+  {
+   "appid": 504370,
+   "steam_name": "Battlerite",
+   "steam_tags": [
+    "PvP",
+    "Multiplayer",
+    "MOBA",
+    "Competitive",
+    "Free to Play",
+    "Action",
+    "Arena Shooter",
+    "Fast-Paced",
+    "Team-Based",
+    "Fighting"
+   ],
+   "coming_soon": false,
+   "twitch_id": "493277",
+   "twitch_name": "Battlerite",
+   "wishlist": false,
+   "hours_played": 5.0
+  },
+  {
+   "appid": 523780,
+   "steam_name": "Emily is Away Too",
+   "steam_tags": [
+    "Indie",
+    "Simulation",
+    "Choices Matter",
+    "Dating Sim",
+    "Casual",
+    "Pixel Graphics",
+    "Story Rich",
+    "Multiple Endings",
+    "Singleplayer",
+    "Text-Based"
+   ],
+   "coming_soon": false,
+   "twitch_id": "495975",
+   "twitch_name": "Emily Is Away Too",
+   "wishlist": false,
+   "hours_played": 5.6
+  },
+  {
    "appid": 524220,
    "steam_name": "NieR:Automata™",
    "steam_tags": [
@@ -274,6 +1597,27 @@
    "twitch_name": "NieR: Automata",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 530620,
+   "steam_name": "Resident Evil 7 Teaser: Beginning Hour",
+   "steam_tags": [
+    "Horror",
+    "Survival Horror",
+    "Gore",
+    "Multiplayer",
+    "Free to Play",
+    "First-Person",
+    "Zombies",
+    "Action",
+    "Violent",
+    "Psychological Horror"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1754504231",
+   "twitch_name": "Resident Evil 7 Teaser: Beginning Hour",
+   "wishlist": false,
+   "hours_played": 4.2
   },
   {
    "appid": 541570,
@@ -297,6 +1641,68 @@
    "hours_played": null
   },
   {
+   "appid": 554620,
+   "steam_name": "Life is Strange: Before the Storm",
+   "steam_tags": [
+    "Story Rich",
+    "Choices Matter",
+    "Great Soundtrack",
+    "Female Protagonist",
+    "Atmospheric",
+    "Singleplayer",
+    "Episodic",
+    "Adventure",
+    "Choose Your Own Adventure",
+    "Multiple Endings"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497443",
+   "twitch_name": "Life is Strange: Before the Storm",
+   "wishlist": false,
+   "hours_played": 13.9
+  },
+  {
+   "appid": 567290,
+   "steam_name": "Slash It",
+   "steam_tags": [
+    "Casual",
+    "Indie",
+    "Action",
+    "Typing",
+    "Great Soundtrack",
+    "Rhythm",
+    "Puzzle",
+    "Arcade",
+    "2D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "509340",
+   "twitch_name": "Slash It",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 582500,
+   "steam_name": "We Were Here",
+   "steam_tags": [
+    "Free to Play",
+    "Co-op",
+    "Puzzle",
+    "Escape Room",
+    "Multiplayer",
+    "Horror",
+    "Co-op Campaign",
+    "Mystery",
+    "Adventure",
+    "Psychological Horror"
+   ],
+   "coming_soon": false,
+   "twitch_id": "495723",
+   "twitch_name": "We Were Here",
+   "wishlist": false,
+   "hours_played": 1.9
+  },
+  {
    "appid": 588650,
    "steam_name": "Dead Cells",
    "steam_tags": [
@@ -318,6 +1724,216 @@
    "hours_played": null
   },
   {
+   "appid": 606150,
+   "steam_name": "Moonlighter",
+   "steam_tags": [
+    "Hack and Slash",
+    "Pixel Graphics",
+    "Roguelite",
+    "Dungeon Crawler",
+    "Roguelike",
+    "Action Roguelike",
+    "Management",
+    "RPG",
+    "Action RPG",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497711",
+   "twitch_name": "Moonlighter",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 613100,
+   "steam_name": "House Flipper",
+   "steam_tags": [
+    "Cleaning",
+    "Simulation",
+    "Design & Illustration",
+    "Singleplayer",
+    "Multiplayer",
+    "Building",
+    "Relaxing",
+    "Sandbox",
+    "Casual",
+    "Decorating"
+   ],
+   "coming_soon": false,
+   "twitch_id": "498000",
+   "twitch_name": "House Flipper",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 628750,
+   "steam_name": "aMAZE 2",
+   "steam_tags": [
+    "Puzzle",
+    "Side Scroller",
+    "Difficult",
+    "2D",
+    "Singleplayer",
+    "Strategy",
+    "Cute",
+    "Relaxing",
+    "Abstract",
+    "Colorful"
+   ],
+   "coming_soon": false,
+   "twitch_id": "2041485916",
+   "twitch_name": "aMAZE 2",
+   "wishlist": false,
+   "hours_played": 1.7
+  },
+  {
+   "appid": 638230,
+   "steam_name": "Journey",
+   "steam_tags": [
+    "Beautiful",
+    "Atmospheric",
+    "Adventure",
+    "Indie",
+    "Exploration",
+    "Relaxing",
+    "Great Soundtrack",
+    "Walking Simulator",
+    "Co-op",
+    "Multiplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "19829",
+   "twitch_name": "Journey",
+   "wishlist": false,
+   "hours_played": 2.2
+  },
+  {
+   "appid": 648390,
+   "steam_name": "Marie's Room",
+   "steam_tags": [
+    "Free to Play",
+    "Story Rich",
+    "Atmospheric",
+    "Indie",
+    "Walking Simulator",
+    "Exploration",
+    "Singleplayer",
+    "Female Protagonist",
+    "Adventure",
+    "Casual"
+   ],
+   "coming_soon": false,
+   "twitch_id": "505840",
+   "twitch_name": "Marie's Room",
+   "wishlist": false,
+   "hours_played": 1.1
+  },
+  {
+   "appid": 652980,
+   "steam_name": "Loading Screen Simulator",
+   "steam_tags": [
+    "Free to Play",
+    "Incremental",
+    "Memes",
+    "Simulation",
+    "Indie",
+    "Casual",
+    "Singleplayer",
+    "Funny",
+    "Comedy",
+    "Family Friendly"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497880",
+   "twitch_name": "Loading Screen Simulator",
+   "wishlist": false,
+   "hours_played": 0.3
+  },
+  {
+   "appid": 653530,
+   "steam_name": "Return of the Obra Dinn",
+   "steam_tags": [
+    "Detective",
+    "Mystery",
+    "Puzzle",
+    "Story Rich",
+    "Atmospheric",
+    "Singleplayer",
+    "Indie",
+    "Great Soundtrack",
+    "First-Person",
+    "Historical"
+   ],
+   "coming_soon": false,
+   "twitch_id": "460501",
+   "twitch_name": "Return of the Obra Dinn",
+   "wishlist": false,
+   "hours_played": 22.0
+  },
+  {
+   "appid": 674940,
+   "steam_name": "Stick Fight: The Game",
+   "steam_tags": [
+    "Multiplayer",
+    "Funny",
+    "Fighting",
+    "Local Multiplayer",
+    "Action",
+    "2D Fighter",
+    "4 Player Local",
+    "PvP",
+    "2D",
+    "Physics"
+   ],
+   "coming_soon": false,
+   "twitch_id": "499379",
+   "twitch_name": "Stick Fight: The Game",
+   "wishlist": false,
+   "hours_played": 0.1
+  },
+  {
+   "appid": 677160,
+   "steam_name": "We Were Here Too",
+   "steam_tags": [
+    "Online Co-Op",
+    "Puzzle",
+    "Escape Room",
+    "Co-op",
+    "Horror",
+    "Multiplayer",
+    "Investigation",
+    "Action-Adventure",
+    "First-Person",
+    "Atmospheric"
+   ],
+   "coming_soon": false,
+   "twitch_id": "502825",
+   "twitch_name": "We Were Here Too",
+   "wishlist": false,
+   "hours_played": 4.1
+  },
+  {
+   "appid": 683320,
+   "steam_name": "GRIS",
+   "steam_tags": [
+    "Beautiful",
+    "Atmospheric",
+    "Great Soundtrack",
+    "Indie",
+    "Female Protagonist",
+    "Adventure",
+    "Hand-drawn",
+    "Platformer",
+    "Singleplayer",
+    "Relaxing"
+   ],
+   "coming_soon": false,
+   "twitch_id": "509196",
+   "twitch_name": "GRIS",
+   "wishlist": false,
+   "hours_played": 18.3
+  },
+  {
    "appid": 687440,
    "steam_name": "In The Valley of Gods",
    "steam_tags": [
@@ -336,6 +1952,125 @@
    "twitch_name": "In the Valley of Gods",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 698780,
+   "steam_name": "Doki Doki Literature Club!",
+   "steam_tags": [
+    "Psychological Horror",
+    "Visual Novel",
+    "Anime",
+    "Free to Play",
+    "Dating Sim",
+    "Horror",
+    "Cute",
+    "Dark",
+    "Story Rich",
+    "Romance"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497527",
+   "twitch_name": "Doki Doki Literature Club!",
+   "wishlist": false,
+   "hours_played": 11.5
+  },
+  {
+   "appid": 714120,
+   "steam_name": "Little Misfortune",
+   "steam_tags": [
+    "Psychological Horror",
+    "Indie",
+    "Point & Click",
+    "Story Rich",
+    "Choices Matter",
+    "Adventure",
+    "Horror",
+    "Female Protagonist",
+    "Singleplayer",
+    "Cute"
+   ],
+   "coming_soon": false,
+   "twitch_id": "508698",
+   "twitch_name": "Little Misfortune",
+   "wishlist": false,
+   "hours_played": 7.0
+  },
+  {
+   "appid": 730180,
+   "steam_name": "Bits n Bullets",
+   "steam_tags": [
+    "Action",
+    "Casual",
+    "VR"
+   ],
+   "coming_soon": false,
+   "twitch_id": "444039959",
+   "twitch_name": "Bits n Bullets",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 736260,
+   "steam_name": "Baba Is You",
+   "steam_tags": [
+    "Puzzle",
+    "Indie",
+    "Difficult",
+    "Singleplayer",
+    "Logic",
+    "Pixel Graphics",
+    "Cute",
+    "Sokoban",
+    "2D",
+    "Programming"
+   ],
+   "coming_soon": false,
+   "twitch_id": "505015",
+   "twitch_name": "Baba Is You",
+   "wishlist": false,
+   "hours_played": 14.7
+  },
+  {
+   "appid": 739630,
+   "steam_name": "Phasmophobia",
+   "steam_tags": [
+    "Horror",
+    "Online Co-Op",
+    "Multiplayer",
+    "Psychological Horror",
+    "Co-op",
+    "VR",
+    "Supernatural",
+    "First-Person",
+    "Investigation",
+    "Dark"
+   ],
+   "coming_soon": false,
+   "twitch_id": "518184",
+   "twitch_name": "Phasmophobia",
+   "wishlist": false,
+   "hours_played": 58.4
+  },
+  {
+   "appid": 743390,
+   "steam_name": "DISTRAINT 2",
+   "steam_tags": [
+    "Psychological Horror",
+    "Horror",
+    "Story Rich",
+    "Atmospheric",
+    "Singleplayer",
+    "Side Scroller",
+    "Point & Click",
+    "2D",
+    "Walking Simulator",
+    "Pixel Graphics"
+   ],
+   "coming_soon": false,
+   "twitch_id": "510669",
+   "twitch_name": "Distraint 2",
+   "wishlist": false,
+   "hours_played": 5.8
   },
   {
    "appid": 753640,
@@ -359,6 +2094,27 @@
    "hours_played": null
   },
   {
+   "appid": 761890,
+   "steam_name": "Albion Online",
+   "steam_tags": [
+    "MMORPG",
+    "Free to Play",
+    "Open World",
+    "Massively Multiplayer",
+    "Sandbox",
+    "RPG",
+    "Multiplayer",
+    "Crafting",
+    "PvP",
+    "Survival"
+   ],
+   "coming_soon": false,
+   "twitch_id": "417528",
+   "twitch_name": "Albion Online",
+   "wishlist": false,
+   "hours_played": 3.3
+  },
+  {
    "appid": 774361,
    "steam_name": "Blasphemous",
    "steam_tags": [
@@ -378,6 +2134,153 @@
    "twitch_name": "Blasphemous",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 774861,
+   "steam_name": "Project Winter",
+   "steam_tags": [
+    "Social Deduction",
+    "Team-Based",
+    "Survival",
+    "Snow",
+    "PvP",
+    "Exploration",
+    "Adventure",
+    "Crafting",
+    "Stylized",
+    "Controller"
+   ],
+   "coming_soon": false,
+   "twitch_id": "509893",
+   "twitch_name": "Project Winter",
+   "wishlist": false,
+   "hours_played": 3.4
+  },
+  {
+   "appid": 812810,
+   "steam_name": "missed messages.",
+   "steam_tags": [
+    "Free to Play",
+    "Visual Novel",
+    "LGBTQ+",
+    "Choices Matter",
+    "Romance",
+    "Emotional",
+    "Psychological Horror",
+    "Female Protagonist",
+    "Indie",
+    "Psychological"
+   ],
+   "coming_soon": false,
+   "twitch_id": "515738",
+   "twitch_name": "missed messages.",
+   "wishlist": false,
+   "hours_played": 1.1
+  },
+  {
+   "appid": 813230,
+   "steam_name": "ANIMAL WELL",
+   "steam_tags": [
+    "Metroidvania",
+    "Exploration",
+    "Puzzle",
+    "Pixel Graphics",
+    "Puzzle Platformer",
+    "Platformer",
+    "Horror",
+    "2D",
+    "Atmospheric",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1767350976",
+   "twitch_name": "ANIMAL WELL",
+   "wishlist": false,
+   "hours_played": 36.4
+  },
+  {
+   "appid": 848450,
+   "steam_name": "Subnautica: Below Zero",
+   "steam_tags": [
+    "Open World Survival Craft",
+    "Survival",
+    "Underwater",
+    "Singleplayer",
+    "Open World",
+    "Horror",
+    "Exploration",
+    "Multiplayer",
+    "Base Building",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "511212",
+   "twitch_name": "Subnautica: Below Zero",
+   "wishlist": false,
+   "hours_played": 38.2
+  },
+  {
+   "appid": 860510,
+   "steam_name": "Little Nightmares II",
+   "steam_tags": [
+    "Horror",
+    "Adventure",
+    "Singleplayer",
+    "Puzzle",
+    "Dark",
+    "Atmospheric",
+    "Psychological Horror",
+    "Story Rich",
+    "Multiplayer",
+    "Stealth"
+   ],
+   "coming_soon": false,
+   "twitch_id": "513949",
+   "twitch_name": "Little Nightmares II",
+   "wishlist": false,
+   "hours_played": 13.2
+  },
+  {
+   "appid": 865360,
+   "steam_name": "We Were Here Together",
+   "steam_tags": [
+    "Puzzle",
+    "Online Co-Op",
+    "Co-op Campaign",
+    "Escape Room",
+    "Story Rich",
+    "Co-op",
+    "Exploration",
+    "Multiplayer",
+    "Adventure",
+    "Linear"
+   ],
+   "coming_soon": false,
+   "twitch_id": "509862",
+   "twitch_name": "We Were Here Together",
+   "wishlist": false,
+   "hours_played": 9.5
+  },
+  {
+   "appid": 880940,
+   "steam_name": "Pummel Party",
+   "steam_tags": [
+    "Multiplayer",
+    "Funny",
+    "4 Player Local",
+    "Online Co-Op",
+    "Party Game",
+    "Board Game",
+    "Minigames",
+    "Local Multiplayer",
+    "Co-op",
+    "Casual"
+   ],
+   "coming_soon": false,
+   "twitch_id": "509549",
+   "twitch_name": "Pummel Party",
+   "wishlist": false,
+   "hours_played": 3.4
   },
   {
    "appid": 883710,
@@ -443,6 +2346,153 @@
    "hours_played": null
   },
   {
+   "appid": 992310,
+   "steam_name": "Tails Noir: Prologue",
+   "steam_tags": [
+    "Free to Play",
+    "Indie",
+    "Adventure",
+    "RPG",
+    "Pixel Graphics",
+    "Noir",
+    "Detective",
+    "Story Rich",
+    "Singleplayer",
+    "Point & Click"
+   ],
+   "coming_soon": false,
+   "twitch_id": null,
+   "twitch_name": null,
+   "wishlist": false,
+   "hours_played": 1.3
+  },
+  {
+   "appid": 1021950,
+   "steam_name": "When the Darkness comes",
+   "steam_tags": [
+    "Psychological Horror",
+    "Free to Play",
+    "Walking Simulator",
+    "Indie",
+    "First-Person",
+    "Horror",
+    "Dynamic Narration",
+    "Adventure",
+    "Atmospheric",
+    "Dark"
+   ],
+   "coming_soon": false,
+   "twitch_id": "511118",
+   "twitch_name": "When the Darkness comes",
+   "wishlist": false,
+   "hours_played": 2.4
+  },
+  {
+   "appid": 1030300,
+   "steam_name": "Hollow Knight: Silksong",
+   "steam_tags": [
+    "Metroidvania",
+    "Difficult",
+    "Indie",
+    "Great Soundtrack",
+    "Souls-like",
+    "2D",
+    "Singleplayer",
+    "Platformer",
+    "Exploration",
+    "Female Protagonist"
+   ],
+   "coming_soon": false,
+   "twitch_id": "511391",
+   "twitch_name": "Hollow Knight: Silksong",
+   "wishlist": false,
+   "hours_played": 164.9
+  },
+  {
+   "appid": 1046030,
+   "steam_name": "ISLANDERS",
+   "steam_tags": [
+    "Relaxing",
+    "City Builder",
+    "Strategy",
+    "Building",
+    "Puzzle",
+    "Indie",
+    "Minimalist",
+    "Singleplayer",
+    "Beautiful",
+    "Colony Sim"
+   ],
+   "coming_soon": false,
+   "twitch_id": "511986",
+   "twitch_name": "ISLANDERS",
+   "wishlist": false,
+   "hours_played": 21.5
+  },
+  {
+   "appid": 1049410,
+   "steam_name": "Superliminal",
+   "steam_tags": [
+    "Puzzle",
+    "First-Person",
+    "Surreal",
+    "Psychological",
+    "Physics",
+    "Singleplayer",
+    "Thriller",
+    "Story Rich",
+    "Psychedelic",
+    "Psychological Horror"
+   ],
+   "coming_soon": false,
+   "twitch_id": "511974",
+   "twitch_name": "Superliminal",
+   "wishlist": false,
+   "hours_played": 4.7
+  },
+  {
+   "appid": 1049710,
+   "steam_name": "Minute of Islands",
+   "steam_tags": [
+    "Puzzle Platformer",
+    "Hand-drawn",
+    "Story Rich",
+    "Exploration",
+    "Mystery",
+    "Narrative",
+    "Platformer",
+    "Adventure",
+    "Comic Book",
+    "Indie"
+   ],
+   "coming_soon": false,
+   "twitch_id": "513814",
+   "twitch_name": "Minute of Islands",
+   "wishlist": false,
+   "hours_played": 3.6
+  },
+  {
+   "appid": 1055540,
+   "steam_name": "A Short Hike",
+   "steam_tags": [
+    "Exploration",
+    "Relaxing",
+    "Adventure",
+    "Indie",
+    "Cute",
+    "Pixel Graphics",
+    "Open World",
+    "Casual",
+    "Short",
+    "Nature"
+   ],
+   "coming_soon": false,
+   "twitch_id": "513185",
+   "twitch_name": "A Short Hike",
+   "wishlist": false,
+   "hours_played": 8.7
+  },
+  {
    "appid": 1056610,
    "steam_name": "Heal",
    "steam_tags": [
@@ -464,6 +2514,27 @@
    "hours_played": null
   },
   {
+   "appid": 1057090,
+   "steam_name": "Ori and the Will of the Wisps",
+   "steam_tags": [
+    "Beautiful",
+    "Metroidvania",
+    "Platformer",
+    "Great Soundtrack",
+    "Singleplayer",
+    "Action",
+    "Adventure",
+    "Atmospheric",
+    "Story Rich",
+    "Exploration"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497412",
+   "twitch_name": "Ori and the Will of the Wisps",
+   "wishlist": false,
+   "hours_played": 26.4
+  },
+  {
    "appid": 1063660,
    "steam_name": "Bendy and the Dark Revival",
    "steam_tags": [
@@ -483,6 +2554,48 @@
    "twitch_name": "Bendy and the Dark Revival",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 1069740,
+   "steam_name": "Seen",
+   "steam_tags": [
+    "Indie",
+    "Dark",
+    "Singleplayer",
+    "Adventure",
+    "Puzzle",
+    "Atmospheric",
+    "Great Soundtrack",
+    "Platformer",
+    "Action",
+    "Puzzle Platformer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "513398",
+   "twitch_name": "Seen",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 1085660,
+   "steam_name": "Destiny 2",
+   "steam_tags": [
+    "Free to Play",
+    "Open World",
+    "Looter Shooter",
+    "Multiplayer",
+    "MMORPG",
+    "FPS",
+    "Co-op",
+    "PvE",
+    "PvP",
+    "Shooter"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497057",
+   "twitch_name": "Destiny 2",
+   "wishlist": false,
+   "hours_played": 3.7
   },
   {
    "appid": 1086940,
@@ -525,6 +2638,27 @@
    "twitch_name": "Cyberpunk 2077",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 1102130,
+   "steam_name": "Florence",
+   "steam_tags": [
+    "Indie",
+    "Casual",
+    "Adventure",
+    "Romance",
+    "Story Rich",
+    "Cute",
+    "Female Protagonist",
+    "Singleplayer",
+    "Interactive Fiction",
+    "Visual Novel"
+   ],
+   "coming_soon": false,
+   "twitch_id": "503982",
+   "twitch_name": "Florence",
+   "wishlist": false,
+   "hours_played": 0.8
   },
   {
    "appid": 1122720,
@@ -590,6 +2724,27 @@
    "hours_played": null
   },
   {
+   "appid": 1145360,
+   "steam_name": "Hades",
+   "steam_tags": [
+    "Action Roguelike",
+    "Roguelite",
+    "Hack and Slash",
+    "Indie",
+    "Mythology",
+    "Action",
+    "Roguelike",
+    "Singleplayer",
+    "Great Soundtrack",
+    "Story Rich"
+   ],
+   "coming_soon": false,
+   "twitch_id": "510590",
+   "twitch_name": "Hades",
+   "wishlist": false,
+   "hours_played": 148.1
+  },
+  {
    "appid": 1147560,
    "steam_name": "Skul: The Hero Slayer",
    "steam_tags": [
@@ -653,6 +2808,90 @@
    "hours_played": null
   },
   {
+   "appid": 1180660,
+   "steam_name": "Tell Me Why",
+   "steam_tags": [
+    "Choices Matter",
+    "Story Rich",
+    "LGBTQ+",
+    "Episodic",
+    "Adventure",
+    "Emotional",
+    "Choose Your Own Adventure",
+    "Cinematic",
+    "Walking Simulator",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "515156",
+   "twitch_name": "Tell Me Why",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 1196590,
+   "steam_name": "Resident Evil Village",
+   "steam_tags": [
+    "Survival Horror",
+    "Horror",
+    "First-Person",
+    "Singleplayer",
+    "Action",
+    "Sexual Content",
+    "Zombies",
+    "Gore",
+    "Story Rich",
+    "VR"
+   ],
+   "coming_soon": false,
+   "twitch_id": "518017",
+   "twitch_name": "Resident Evil Village",
+   "wishlist": false,
+   "hours_played": 24.4
+  },
+  {
+   "appid": 1222670,
+   "steam_name": "The Sims™ 4",
+   "steam_tags": [
+    "Life Sim",
+    "Free to Play",
+    "Character Customization",
+    "Building",
+    "Simulation",
+    "Romance",
+    "Singleplayer",
+    "Sandbox",
+    "Dating Sim",
+    "Relaxing"
+   ],
+   "coming_soon": false,
+   "twitch_id": "369252",
+   "twitch_name": "The Sims 4",
+   "wishlist": false,
+   "hours_played": 70.8
+  },
+  {
+   "appid": 1236300,
+   "steam_name": "Resident Evil Re:Verse",
+   "steam_tags": [
+    "Action",
+    "PvP",
+    "Third-Person Shooter",
+    "Horror",
+    "Survival Horror",
+    "Gore",
+    "Violent",
+    "Multiplayer",
+    "Zombies",
+    "Atmospheric"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1407147388",
+   "twitch_name": "Resident Evil Re:Verse",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
    "appid": 1286680,
    "steam_name": "Tiny Tina's Wonderlands",
    "steam_tags": [
@@ -672,6 +2911,27 @@
    "twitch_name": "Tiny Tina's Wonderlands",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 1289310,
+   "steam_name": "Helltaker",
+   "steam_tags": [
+    "Free to Play",
+    "Cute",
+    "Puzzle",
+    "Demons",
+    "Indie",
+    "Great Soundtrack",
+    "Anime",
+    "Singleplayer",
+    "Sexual Content",
+    "2D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "517527",
+   "twitch_name": "Helltaker",
+   "wishlist": false,
+   "hours_played": 1.7
   },
   {
    "appid": 1299460,
@@ -716,6 +2976,69 @@
    "hours_played": null
   },
   {
+   "appid": 1331910,
+   "steam_name": "Morkredd",
+   "steam_tags": [
+    "Physics",
+    "Puzzle",
+    "Local Co-Op",
+    "Dark",
+    "Atmospheric",
+    "Lovecraftian",
+    "Exploration",
+    "Linear",
+    "Co-op",
+    "Dark Fantasy"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1554430424",
+   "twitch_name": "Morkredd",
+   "wishlist": false,
+   "hours_played": 0.2
+  },
+  {
+   "appid": 1332010,
+   "steam_name": "Stray",
+   "steam_tags": [
+    "Cats",
+    "Adventure",
+    "Atmospheric",
+    "Singleplayer",
+    "Cyberpunk",
+    "Exploration",
+    "Cute",
+    "Robots",
+    "Puzzle",
+    "Beautiful"
+   ],
+   "coming_soon": false,
+   "twitch_id": "518006",
+   "twitch_name": "Stray",
+   "wishlist": false,
+   "hours_played": 6.0
+  },
+  {
+   "appid": 1341290,
+   "steam_name": "We Were Here Forever",
+   "steam_tags": [
+    "Puzzle",
+    "Online Co-Op",
+    "Escape Room",
+    "Co-op",
+    "Multiplayer",
+    "Co-op Campaign",
+    "3D",
+    "Fantasy",
+    "Mystery",
+    "Exploration"
+   ],
+   "coming_soon": false,
+   "twitch_id": "428452832",
+   "twitch_name": "We Were Here Forever",
+   "wishlist": false,
+   "hours_played": 13.4
+  },
+  {
    "appid": 1382070,
    "steam_name": "Viewfinder",
    "steam_tags": [
@@ -735,6 +3058,27 @@
    "twitch_name": "Viewfinder",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 1392820,
+   "steam_name": "Milk inside a bag of milk inside a bag of milk",
+   "steam_tags": [
+    "Visual Novel",
+    "Psychological Horror",
+    "Horror",
+    "Experimental",
+    "Psychological",
+    "Abstract",
+    "Interactive Fiction",
+    "Text-Based",
+    "Adventure",
+    "Anime"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1612953510",
+   "twitch_name": "Milk Inside a Bag of Milk Inside a Bag of Milk",
+   "wishlist": false,
+   "hours_played": 0.5
   },
   {
    "appid": 1392860,
@@ -821,6 +3165,27 @@
    "hours_played": null
   },
   {
+   "appid": 1569580,
+   "steam_name": "Blue Prince",
+   "steam_tags": [
+    "Puzzle",
+    "Mystery",
+    "Exploration",
+    "Investigation",
+    "Roguelite",
+    "Singleplayer",
+    "Story Rich",
+    "First-Person",
+    "Indie",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "2013539540",
+   "twitch_name": "Blue Prince",
+   "wishlist": false,
+   "hours_played": 46.8
+  },
+  {
    "appid": 1608230,
    "steam_name": "Planet of Lana",
    "steam_tags": [
@@ -861,6 +3226,27 @@
    "twitch_name": "Bō",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 1677310,
+   "steam_name": "In Stars And Time",
+   "steam_tags": [
+    "Story Rich",
+    "RPG",
+    "LGBTQ+",
+    "Emotional",
+    "Psychological Horror",
+    "Party-Based RPG",
+    "Turn-Based Combat",
+    "2D",
+    "Lore-Rich",
+    "Singleplayer"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1941028989",
+   "twitch_name": "In Stars and Time",
+   "wishlist": false,
+   "hours_played": 41.4
   },
   {
    "appid": 1695530,
@@ -1052,6 +3438,27 @@
    "hours_played": null
   },
   {
+   "appid": 1989270,
+   "steam_name": "Slay the Princess — The Pristine Cut",
+   "steam_tags": [
+    "Visual Novel",
+    "Choices Matter",
+    "Psychological Horror",
+    "Story Rich",
+    "Horror",
+    "Choose Your Own Adventure",
+    "Romance",
+    "Hand-drawn",
+    "Lore-Rich",
+    "Point & Click"
+   ],
+   "coming_soon": false,
+   "twitch_id": "521979070",
+   "twitch_name": "Slay the Princess",
+   "wishlist": false,
+   "hours_played": 27.9
+  },
+  {
    "appid": 1995880,
    "steam_name": "Afterdream",
    "steam_tags": [
@@ -1113,6 +3520,27 @@
    "twitch_name": "Pony Island 2: Panda Circus",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 2050650,
+   "steam_name": "Resident Evil 4",
+   "steam_tags": [
+    "Horror",
+    "Action",
+    "Survival Horror",
+    "Third-Person Shooter",
+    "Singleplayer",
+    "Zombies",
+    "Story Rich",
+    "Survival",
+    "Remake",
+    "Dark"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1820378900",
+   "twitch_name": "Resident Evil 4",
+   "wishlist": false,
+   "hours_played": 25.4
   },
   {
    "appid": 2079920,
@@ -1178,6 +3606,48 @@
    "hours_played": null
   },
   {
+   "appid": 2134320,
+   "steam_name": "ENA: Dream BBQ",
+   "steam_tags": [
+    "Surreal",
+    "Adventure",
+    "Singleplayer",
+    "Exploration",
+    "Stylized",
+    "First-Person",
+    "Retro",
+    "Psychedelic",
+    "Funny",
+    "3D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1666023148",
+   "twitch_name": "ENA: Dream BBQ",
+   "wishlist": false,
+   "hours_played": 2.2
+  },
+  {
+   "appid": 2149010,
+   "steam_name": "Little Nightmares Enhanced Edition",
+   "steam_tags": [
+    "Adventure",
+    "Puzzle",
+    "Platformer",
+    "Puzzle Platformer",
+    "2.5D",
+    "Horror",
+    "Atmospheric",
+    "Dark",
+    "Third Person",
+    "Psychological Horror"
+   ],
+   "coming_soon": false,
+   "twitch_id": "634101572",
+   "twitch_name": "Little Nightmares: Enhanced Edition",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
    "appid": 2198150,
    "steam_name": "Tiny Glade",
    "steam_tags": [
@@ -1197,6 +3667,48 @@
    "twitch_name": "Tiny Glade",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 2221490,
+   "steam_name": "Tom Clancy’s The Division® 2",
+   "steam_tags": [
+    "Looter Shooter",
+    "Open World",
+    "Multiplayer",
+    "Third-Person Shooter",
+    "Singleplayer",
+    "Online Co-Op",
+    "Shooter",
+    "Action",
+    "Adventure",
+    "RPG"
+   ],
+   "coming_soon": false,
+   "twitch_id": "504463",
+   "twitch_name": "Tom Clancy's The Division 2",
+   "wishlist": false,
+   "hours_played": 0.0
+  },
+  {
+   "appid": 2296990,
+   "steam_name": "We Were Here Expeditions: The FriendShip",
+   "steam_tags": [
+    "Co-op",
+    "Puzzle",
+    "Online Co-Op",
+    "Multiplayer",
+    "Adventure",
+    "Casual",
+    "Emotional",
+    "Atmospheric",
+    "First-Person",
+    "3D"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1127413268",
+   "twitch_name": "We Were Here Expeditions: The FriendShip",
+   "wishlist": false,
+   "hours_played": 0.0
   },
   {
    "appid": 2313700,
@@ -1388,6 +3900,27 @@
    "hours_played": null
   },
   {
+   "appid": 2567870,
+   "steam_name": "Chained Together",
+   "steam_tags": [
+    "Co-op",
+    "Adventure",
+    "Platformer",
+    "Casual",
+    "Multiplayer",
+    "Online Co-Op",
+    "Puzzle Platformer",
+    "Funny",
+    "3D Platformer",
+    "Simulation"
+   ],
+   "coming_soon": false,
+   "twitch_id": "14842174",
+   "twitch_name": "Chained Together",
+   "wishlist": false,
+   "hours_played": 1.8
+  },
+  {
    "appid": 2590240,
    "steam_name": "METRO 2039",
    "steam_tags": [
@@ -1449,6 +3982,27 @@
    "twitch_name": "The Elder Scrolls IV: Oblivion Remastered",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 2767030,
+   "steam_name": "Marvel Rivals",
+   "steam_tags": [
+    "Free to Play",
+    "Multiplayer",
+    "Hero Shooter",
+    "Third-Person Shooter",
+    "Superhero",
+    "Sexual Content",
+    "PvP",
+    "Action",
+    "Team-Based",
+    "Competitive"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1264310518",
+   "twitch_name": "Marvel Rivals",
+   "wishlist": false,
+   "hours_played": 34.3
   },
   {
    "appid": 2824490,
@@ -1661,6 +4215,27 @@
    "hours_played": null
   },
   {
+   "appid": 3241660,
+   "steam_name": "R.E.P.O.",
+   "steam_tags": [
+    "Horror",
+    "Online Co-Op",
+    "Multiplayer",
+    "Comedy",
+    "Co-op",
+    "Physics",
+    "First-Person",
+    "3D",
+    "Stealth",
+    "Survival"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1294658629",
+   "twitch_name": "R.E.P.O.",
+   "wishlist": false,
+   "hours_played": 9.5
+  },
+  {
    "appid": 3357650,
    "steam_name": "PRAGMATA",
    "steam_tags": [
@@ -1701,6 +4276,27 @@
    "twitch_name": "Hillthorn",
    "wishlist": true,
    "hours_played": null
+  },
+  {
+   "appid": 3527290,
+   "steam_name": "PEAK",
+   "steam_tags": [
+    "Multiplayer",
+    "Online Co-Op",
+    "Co-op",
+    "Adventure",
+    "Physics",
+    "Exploration",
+    "First-Person",
+    "Comedy",
+    "3D",
+    "Procedural Generation"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1081998272",
+   "twitch_name": "PEAK",
+   "wishlist": false,
+   "hours_played": 105.3
   },
   {
    "appid": 3541940,
