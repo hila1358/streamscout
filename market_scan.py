@@ -57,6 +57,9 @@ def summarize(streams, limit, with_tags):
 
 
 watch, missing = resolve_watchlist(config["games"])
+steam_file = ROOT / "steam_games.json"
+if steam_file.exists():  # games from the Steam wishlist/library, matched by steam_sync.py
+    watch.update({g["twitch_id"]: g["twitch_name"] for g in json.loads(steam_file.read_text())["games"] if g["twitch_id"]})
 top = {g["id"]: g["name"] for g in api_get_all("games/top", {}, limit=config.get("top_games_to_scan", 30), get=app_get)}
 
 snapshot = {"at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "weekday": now.strftime("%a"), "hour_utc": now.hour,

@@ -25,6 +25,20 @@ now = datetime.now(timezone.utc)
 since = now - timedelta(days=28 if args.tonight else args.days)  # tonight uses all recent history for its averages
 
 
+STORY_TAGS = {"Story Rich", "Psychological Horror", "Mystery", "Visual Novel", "Detective", "Investigation",
+              "Choices Matter", "Narrative", "Choose Your Own Adventure", "Multiple Endings", "Dialogue Heavy"}
+SOURCES = {name: "suggested" for name in config["games"]}
+STORY = set(config["games"])  # the hand-picked watchlist is all story-driven
+steam_file = ROOT / "steam_games.json"
+if steam_file.exists():
+    for g in json.loads(steam_file.read_text())["games"]:
+        if g["twitch_name"]:
+            SOURCES[g["twitch_name"]] = "wishlist" if g["wishlist"] else "library"
+            if STORY_TAGS & set(filter(None, g["steam_tags"])):
+                STORY.add(g["twitch_name"])
+SOURCES.update({name: "you played" for name in config.get("played", [])})
+
+
 def load_snapshots():
     snaps = []
     for path in sorted((ROOT / "data" / "market").glob("*.jsonl")):
@@ -60,6 +74,8 @@ def game_stats(snaps):
             "avg_viewers": round(a["viewers"] / h),
             "small_avg": round(a["small_viewers"] / a["small_channels"], 1) if a["small_channels"] else 0,
             "rank_at_5": round(a["above_at_5"] / h + 1, 1),
+            "source": SOURCES.get(name, "top 30"),
+            "story": "✓" if name in STORY else "",
         })
     return sorted(rows, key=lambda r: (-r["small_avg"], -r["avg_viewers"]))
 
@@ -102,7 +118,7 @@ snaps = load_snapshots()
 if not snaps:
     raise SystemExit("No market snapshots in this period yet - market_scan.py needs to run first.")
 first, last = snaps[0]["local"], snaps[-1]["local"]
-GAME_COLS = [("Game", "game"), ("Avg viewers per small stream", "small_avg"), ("Avg streamers", "avg_streamers"),
+GAME_COLS = [("Game", "game"), ("From", "source"), ("Story", "story"), ("Avg viewers per small stream", "small_avg"), ("Avg streamers", "avg_streamers"),
              ("Avg total viewers", "avg_viewers"), ("% of hours live", "live_pct"), ("Your rank at 5 viewers", "rank_at_5")]
 
 if args.tonight:
@@ -137,9 +153,15 @@ print(f"{len(snaps)} hourly snapshots of English Twitch streams (expected ~{24 *
 print("**How to read this:** \"Avg viewers per small stream\" is what channels with 50 or fewer viewers got on average - "
       "the best guide to what you could get. \"Your rank at 5 viewers\" is where a 5-viewer stream would sit in that "
       "game's directory (1 = top of the page).\n")
-print("## Watchlist games\n")
+print("## Games\n")
 rows = game_stats(snaps)
-print(table([r for r in rows if r["live_pct"]], GAME_COLS))
+live = [r for r in rows if r["live_pct"]]
+print("Top 30 by what small streams got (\"Story\" = story-driven by Steam tags):\n")
+print(table(live[:30], GAME_COLS))
+story = [r for r in live[30:] if r["story"]]
+if story:
+    print("\nMore story-driven games that were live:\n")
+    print(table(story, GAME_COLS))
 idle = [r["game"] for r in rows if not r["live_pct"]]
 if idle:
     print("\nNobody streamed these in English during this period (empty directory - first-mover chance if the game "
