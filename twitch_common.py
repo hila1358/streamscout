@@ -16,6 +16,8 @@ SCOPES = ["moderator:read:followers", "channel:read:subscriptions", "bits:read"]
 def load_env():
     env_file = ROOT / ".env"
     if not env_file.exists():
+        if "TWITCH_CLIENT_ID" in os.environ and "TWITCH_CLIENT_SECRET" in os.environ:  # e.g. GitHub Actions secrets
+            return os.environ["TWITCH_CLIENT_ID"], os.environ["TWITCH_CLIENT_SECRET"]
         raise SystemExit("Missing .env - copy .env.example to .env and fill in your Twitch app's Client ID and Secret.")
     for line in env_file.read_text().splitlines():
         if "=" in line and not line.strip().startswith("#"):
@@ -72,11 +74,41 @@ def api_get(path, params=None, _retried=False):
         raise
 
 
-def api_get_all(path, params, limit=2000):
+_app_token = {}
+
+
+def app_get(path, params=None):
+    """GET a Helix endpoint with an app access token (public data only, no user login needed)."""
+    client_id, client_secret = load_env()
+    if "access_token" not in _app_token:
+        _app_token.update(post_form("https://id.twitch.tv/oauth2/token", {
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "grant_type": "client_credentials",
+        }))
+    url = "https://api.twitch.tv/helix/" + path
+    if params:
+        url += "?" + urllib.parse.urlencode(params, doseq=True)
+    req = urllib.request.Request(url, headers={
+        "Authorization": "Bearer " + _app_token["access_token"],
+        "Client-Id": client_id,
+    })
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        if e.code == 429:  # rate limited: wait until the bucket refills, then retry
+            reset = int(e.headers.get("Ratelimit-Reset", time.time() + 5))
+            time.sleep(max(1, reset - time.time()))
+            return app_get(path, params)
+        raise
+
+
+def api_get_all(path, params, limit=2000, get=api_get):
     """Follow Helix cursor pagination until exhausted or `limit` items collected."""
     items, params = [], dict(params, first=100)
     while len(items) < limit:
-        page = api_get(path, params)
+        page = get(path, params)
         items.extend(page.get("data", []))
         cursor = page.get("pagination", {}).get("cursor")
         if not cursor or not page.get("data"):

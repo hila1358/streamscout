@@ -1,3 +1,6 @@
 .env
 .twitch_tokens.json
-data/
+# personal channel data stays local; only the public market snapshots are committed
+data/*
+!data/market/
+__pycache__/
