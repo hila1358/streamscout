@@ -1771,14 +1771,14 @@
    "steam_tags": [
     "Puzzle",
     "Side Scroller",
-    "Difficult",
     "2D",
     "Singleplayer",
     "Strategy",
     "Cute",
     "Relaxing",
     "Abstract",
-    "Colorful"
+    "Colorful",
+    "Stylized"
    ],
    "coming_soon": false,
    "twitch_id": "2041485916",
@@ -4394,8 +4394,8 @@
     "Mystery",
     "Noir",
     "Visual Novel",
-    "Interactive Fiction",
-    "Adventure"
+    "Adventure",
+    "Interactive Fiction"
    ],
    "coming_soon": false,
    "twitch_id": "805597430",
