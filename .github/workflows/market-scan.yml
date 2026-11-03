@@ -2,7 +2,7 @@ name: Hourly market scan
 
 on:
   schedule:
-    - cron: "17 * * * *"  # every hour at :17 (top of the hour is GitHub's busiest slot)
+    - cron: "7,22,37,52 * * * *"  # GitHub often drops scheduled runs; market_scan.py keeps one snapshot per hour
   workflow_dispatch:       # lets you run it by hand from the Actions tab
 
 permissions:

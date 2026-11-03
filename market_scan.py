@@ -5,6 +5,7 @@ Usage: python3 market_scan.py
 """
 import json
 import statistics
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -17,6 +18,13 @@ SMALL = 50  # a "small" stream for opportunity stats: at most this many viewers
 config = json.loads((ROOT / "watchlist.json").read_text())
 lang = config.get("language", "en")
 now = datetime.now(timezone.utc)
+
+# GitHub drops many scheduled runs, so the workflow fires every 15 min; keep only the first snapshot per hour.
+today_file = ROOT / "data" / "market" / f"{now:%Y-%m-%d}.jsonl"
+if today_file.exists() and "--force" not in sys.argv:
+    lines = today_file.read_text().splitlines()
+    if lines and json.loads(lines[-1])["hour_utc"] == now.hour:
+        raise SystemExit(f"Already have a snapshot for {now:%H}:00 UTC - skipping.")
 
 
 def resolve_watchlist(names):
