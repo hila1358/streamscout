@@ -14,5 +14,5 @@ The user is a small English-language Twitch streamer who loves story-rich games 
    - **Go live at:** the best start hour from the report, in Israel time.
    - **Backup pick:** a second game and why.
    - **Title idea:** one catchy title for that game that invites chat to talk.
-   - **Tags:** up to 10, preferring tags that performed well in `python3 report.py --days 7`'s tag table, plus game-relevant ones.
+   - **Tags:** up to 10. Follow `tag_rules.md` for what fits; among fitting tags, prefer those that performed well in `python3 report.py --days 7`'s tag table.
 4. Be honest about thin data: if the report says there is little or no history for these hours, say the pick rests mostly on the live numbers and will get sharper as data builds up.

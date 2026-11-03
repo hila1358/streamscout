@@ -58,9 +58,11 @@ def summarize(streams, limit, with_tags):
         for s in streams:
             if s["viewer_count"] <= SMALL:
                 for t in s.get("tags") or []:
-                    tag_views[t.lower()].append(s["viewer_count"])
+                    tag_views[t.lower()].append((s["viewer_count"], s["user_id"]))
         top = sorted(tag_views.items(), key=lambda kv: -len(kv[1]))[:20]
-        out["small_stream_tags"] = {t: {"n": len(v), "avg_viewers": round(sum(v) / len(v), 2)} for t, v in top}
+        # "ch" lets the report count distinct channels, so one streamer seen every hour can't dominate a tag
+        out["small_stream_tags"] = {t: {"n": len(v), "avg_viewers": round(sum(x for x, _ in v) / len(v), 2),
+                                        "ch": {u: x for x, u in v}} for t, v in top}
     return out
 
 

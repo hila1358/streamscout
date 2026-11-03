@@ -97,14 +97,23 @@ def slot_stats(snaps, games=None):
             for k, v in acc.items()}
 
 
-def tag_stats(snaps, min_n=5):
-    acc = defaultdict(lambda: [0, 0.0])
+def tag_stats(snaps, min_channels=3):
+    """Tags on small streams of story-driven games only - tags from Skyrim or TF2 streams say nothing about yours.
+
+    Each channel counts once (its average across the hours it was seen), so one streamer can't carry a tag."""
+    per_tag = defaultdict(lambda: defaultdict(list))  # tag -> channel -> viewer counts
     for s in snaps:
-        for g in s["watchlist"].values():
+        for name, g in s["watchlist"].items():
+            if name not in STORY:
+                continue
             for tag, t in g.get("small_stream_tags", {}).items():
-                acc[tag][0] += t["n"]
-                acc[tag][1] += t["n"] * t["avg_viewers"]
-    rows = [{"tag": t, "uses": n, "avg_viewers": round(v / n, 1)} for t, (n, v) in acc.items() if n >= min_n]
+                for channel, viewers in t.get("ch", {}).items():  # older snapshots lack "ch" and are skipped
+                    per_tag[tag][channel].append(viewers)
+    rows = []
+    for tag, channels in per_tag.items():
+        if len(channels) >= min_channels:
+            means = [sum(v) / len(v) for v in channels.values()]
+            rows.append({"tag": tag, "channels": len(channels), "avg_viewers": round(sum(means) / len(means), 1)})
     return sorted(rows, key=lambda r: -r["avg_viewers"])
 
 
@@ -177,8 +186,8 @@ print(table([{"slot": f"{d} {h:02d}:00", **v} for (d, h), v in best],
 print("\n## Tags on small streams\n")
 tags = tag_stats(snaps)
 if tags:
-    print("Tags used at least 5 times on small streams in watchlist games, best-performing first:\n")
-    print(table(tags[:15], [("Tag", "tag"), ("Times seen", "uses"), ("Avg viewers", "avg_viewers")]))
+    print("Tags used by at least 3 different small channels streaming story-driven games, best-performing first:\n")
+    print(table(tags[:20], [("Tag", "tag"), ("Channels", "channels"), ("Avg viewers per channel", "avg_viewers")]))
 else:
     print("Not enough tag data yet.")
 
