@@ -3015,7 +3015,7 @@
    "twitch_id": "518006",
    "twitch_name": "Stray",
    "wishlist": false,
-   "hours_played": 7.3
+   "hours_played": 8.0
   },
   {
    "appid": 1341290,
@@ -3365,8 +3365,8 @@
     "Choose Your Own Adventure",
     "Cinematic",
     "Comic Book",
-    "Dark Fantasy",
-    "Crime"
+    "Crime",
+    "Dark Fantasy"
    ],
    "coming_soon": true,
    "twitch_id": "497917",
