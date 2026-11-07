@@ -1441,8 +1441,8 @@
     "Stylized",
     "Exploration",
     "Choices Matter",
-    "Singleplayer",
     "Narrative",
+    "Singleplayer",
     "2D"
    ],
    "coming_soon": false,
@@ -3708,7 +3708,7 @@
    "twitch_id": "1127413268",
    "twitch_name": "We Were Here Expeditions: The FriendShip",
    "wishlist": false,
-   "hours_played": 1.5
+   "hours_played": 2.3
   },
   {
    "appid": 2313700,
@@ -3906,8 +3906,8 @@
     "Co-op",
     "Adventure",
     "Platformer",
-    "Casual",
     "Multiplayer",
+    "Casual",
     "Online Co-Op",
     "Puzzle Platformer",
     "3D Platformer",
