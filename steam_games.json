@@ -1770,15 +1770,15 @@
    "steam_name": "aMAZE 2",
    "steam_tags": [
     "Puzzle",
+    "Relaxing",
     "Logic",
     "Minimalist",
     "Abstract",
-    "Difficult",
-    "Grid-Based Movement",
+    "Retro",
     "2D",
-    "Top-Down",
+    "Stylized",
     "Colorful",
-    "Strategy"
+    "Old School"
    ],
    "coming_soon": false,
    "twitch_id": "2041485916",
@@ -3183,7 +3183,7 @@
    "twitch_id": "2013539540",
    "twitch_name": "Blue Prince",
    "wishlist": false,
-   "hours_played": 52.3
+   "hours_played": 56.4
   },
   {
    "appid": 1608230,
@@ -3805,8 +3805,8 @@
     "Visual Novel",
     "Psychological Horror",
     "Choices Matter",
-    "Dark",
     "Singleplayer",
+    "Dark",
     "Hand-drawn"
    ],
    "coming_soon": false,
