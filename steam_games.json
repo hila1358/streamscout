@@ -1770,15 +1770,15 @@
    "steam_name": "aMAZE 2",
    "steam_tags": [
     "Puzzle",
-    "Side Scroller",
-    "2D",
-    "Singleplayer",
-    "Strategy",
-    "Cute",
-    "Relaxing",
+    "Logic",
+    "Minimalist",
     "Abstract",
+    "Difficult",
+    "Grid-Based Movement",
+    "2D",
+    "Top-Down",
     "Colorful",
-    "Stylized"
+    "Strategy"
    ],
    "coming_soon": false,
    "twitch_id": "2041485916",
@@ -3183,7 +3183,7 @@
    "twitch_id": "2013539540",
    "twitch_name": "Blue Prince",
    "wishlist": false,
-   "hours_played": 47.8
+   "hours_played": 52.3
   },
   {
    "appid": 1608230,
@@ -3572,8 +3572,8 @@
     "Adventure",
     "Multiplayer",
     "Atmospheric",
-    "Dark",
     "Local Co-Op",
+    "Dark",
     "Puzzle",
     "3D",
     "Third Person"
