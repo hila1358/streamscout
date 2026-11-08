@@ -454,8 +454,8 @@
     "Medical Sim",
     "Dark Humor",
     "Indie",
-    "Difficult",
     "Intentionally Awkward Controls",
+    "Difficult",
     "Puzzle"
    ],
    "coming_soon": false,
@@ -3183,7 +3183,7 @@
    "twitch_id": "2013539540",
    "twitch_name": "Blue Prince",
    "wishlist": false,
-   "hours_played": 72.8
+   "hours_played": 77.3
   },
   {
    "appid": 1608230,
@@ -4394,8 +4394,8 @@
     "Mystery",
     "Noir",
     "Visual Novel",
-    "Adventure",
-    "Interactive Fiction"
+    "Interactive Fiction",
+    "Adventure"
    ],
    "coming_soon": false,
    "twitch_id": "805597430",
