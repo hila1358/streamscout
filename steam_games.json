@@ -891,8 +891,8 @@
     "Difficult",
     "Music",
     "Level Editor",
-    "Great Soundtrack",
     "2D",
+    "Great Soundtrack",
     "Rhythm",
     "Precision Platformer",
     "Singleplayer",
@@ -4082,7 +4082,7 @@
     "Platformer",
     "Arcade"
    ],
-   "coming_soon": true,
+   "coming_soon": false,
    "twitch_id": "681219386",
    "twitch_name": "Icy Tower",
    "wishlist": true,
@@ -4271,7 +4271,7 @@
     "Exploration",
     "Noir"
    ],
-   "coming_soon": true,
+   "coming_soon": false,
    "twitch_id": "802129215",
    "twitch_name": "Hillthorn",
    "wishlist": true,
