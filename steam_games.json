@@ -953,8 +953,8 @@
    "steam_tags": [
     "Horror",
     "Free to Play",
-    "First-Person",
     "Cute",
+    "First-Person",
     "Singleplayer",
     "Indie",
     "Atmospheric",
@@ -1253,8 +1253,8 @@
     "RPG",
     "Simulation",
     "Agriculture",
-    "Crafting",
-    "Sandbox"
+    "Sandbox",
+    "Crafting"
    ],
    "coming_soon": false,
    "twitch_id": "490744",
@@ -1868,7 +1868,7 @@
    "twitch_id": "460501",
    "twitch_name": "Return of the Obra Dinn",
    "wishlist": false,
-   "hours_played": 24.4
+   "hours_played": 26.8
   },
   {
    "appid": 674940,
