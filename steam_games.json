@@ -1249,8 +1249,8 @@
     "Pixel Graphics",
     "Multiplayer",
     "Life Sim",
-    "RPG",
     "Relaxing",
+    "RPG",
     "Simulation",
     "Agriculture",
     "Sandbox",
@@ -4394,8 +4394,8 @@
     "Mystery",
     "Noir",
     "Visual Novel",
-    "Interactive Fiction",
-    "Adventure"
+    "Adventure",
+    "Interactive Fiction"
    ],
    "coming_soon": false,
    "twitch_id": "805597430",
@@ -4622,8 +4622,8 @@
     "Casual",
     "First-Person",
     "Relaxing",
-    "Physics",
     "Job Simulator",
+    "Physics",
     "Cold War",
     "3D",
     "Dark Humor"
