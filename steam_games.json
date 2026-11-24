@@ -2483,8 +2483,8 @@
     "Pixel Graphics",
     "Open World",
     "Casual",
-    "Short",
-    "Nature"
+    "Nature",
+    "Short"
    ],
    "coming_soon": false,
    "twitch_id": "513185",
@@ -3126,8 +3126,8 @@
    "appid": 1497440,
    "steam_name": "COCOON",
    "steam_tags": [
-    "Puzzle",
     "Adventure",
+    "Puzzle",
     "Exploration",
     "Indie",
     "Puzzle Platformer",
