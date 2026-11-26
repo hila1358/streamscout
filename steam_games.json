@@ -2850,6 +2850,27 @@
    "hours_played": 24.4
   },
   {
+   "appid": 1215940,
+   "steam_name": "Forever Ago",
+   "steam_tags": [
+    "Adventure",
+    "Indie",
+    "Story Rich",
+    "Atmospheric",
+    "Singleplayer",
+    "Exploration",
+    "Walking Simulator",
+    "Casual",
+    "Third Person",
+    "Short"
+   ],
+   "coming_soon": false,
+   "twitch_id": "1861940133",
+   "twitch_name": "Forever Ago",
+   "wishlist": true,
+   "hours_played": null
+  },
+  {
    "appid": 1222670,
    "steam_name": "The Sims™ 4",
    "steam_tags": [
@@ -4392,8 +4413,8 @@
     "Investigation",
     "Choose Your Own Adventure",
     "Mystery",
-    "Noir",
     "Visual Novel",
+    "Noir",
     "Adventure",
     "Interactive Fiction"
    ],
