@@ -738,27 +738,6 @@
    "hours_played": 52.7
   },
   {
-   "appid": 268910,
-   "steam_name": "Cuphead",
-   "steam_tags": [
-    "Difficult",
-    "Cartoon",
-    "Co-op",
-    "Platformer",
-    "Local Co-Op",
-    "Great Soundtrack",
-    "2D",
-    "Multiplayer",
-    "Indie",
-    "Hand-drawn"
-   ],
-   "coming_soon": false,
-   "twitch_id": "459064",
-   "twitch_name": "Cuphead",
-   "wishlist": true,
-   "hours_played": null
-  },
-  {
    "appid": 282140,
    "steam_name": "SOMA",
    "steam_tags": [
@@ -2871,6 +2850,27 @@
    "hours_played": null
   },
   {
+   "appid": 1222140,
+   "steam_name": "Detroit: Become Human",
+   "steam_tags": [
+    "Choices Matter",
+    "Story Rich",
+    "Multiple Endings",
+    "Cinematic",
+    "Singleplayer",
+    "Emotional",
+    "Robots",
+    "Futuristic",
+    "Sci-fi",
+    "Adventure"
+   ],
+   "coming_soon": false,
+   "twitch_id": "497480",
+   "twitch_name": "Detroit: Become Human",
+   "wishlist": true,
+   "hours_played": null
+  },
+  {
    "appid": 1222670,
    "steam_name": "The Sims™ 4",
    "steam_tags": [
@@ -3204,7 +3204,7 @@
    "twitch_id": "2013539540",
    "twitch_name": "Blue Prince",
    "wishlist": false,
-   "hours_played": 81.5
+   "hours_played": 84.5
   },
   {
    "appid": 1608230,
